@@ -60,7 +60,12 @@ section[epub|type~="epigraph"] > *{
 
 /* All dedications */
 section[epub|type~="dedication"]{
+	font-variant: small-caps;
 	text-align: center;
+}
+
+section[epub|type~="dedication"] span{
+	font-size: larger;
 }
 
 section[epub|type~="dedication"] > *{
@@ -86,3 +91,30 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End all dedications */
+
+[epub|type~="z3998:poem"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
