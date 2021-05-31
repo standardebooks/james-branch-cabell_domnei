@@ -53,9 +53,9 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">The tale of to what extent a woman's love is worth it to pursue.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			<p><i>Domnei</i> by <a href="https://standardebooks.org/ebooks/james-branch-cabell">James Branch Cabell</a> is the fourth installment in the author's <a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel">Biography of the Life of Manuel</a> series which follows the lives of Dom Manuel and his descendents in the fictional French county of Poictesme. Cabell is highly praised as an influence among fantasy author's with Neil Gaiman claiming Cabell to be his “favourite forgotten American writer”.</p>
-			<p><i>Domnei</i> was initially published as <i>The Soul of Melicent</i> in 1913 under the erroneous advice of Cabell's publisher that this new title would sell more copies. Only 493 copies were sold of the original publication. In 1920 the book was republished as <i>Domnei: A Comedy of Woman-Worship</i>, Cabell's original vision for the title, which is the basis for this ebook.</p>
-			<p>The story follows Perion de la Forêt, fugitive leader of a mercenary troop and his unbridled passion for his newlywed and newly-distant lover, the Princess Melicent, daughter of Dom Manuel. The tale takes us to many locations in Middle Ages Europe as we witness to what extent men will go to pursue a woman's love.</p>
+			&lt;p&gt;&lt;i&gt;Domnei&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell&lt;/a&gt; is the fourth installment in the author's &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt; series which follows the lives of Dom Manuel and his descendents in the fictional French county of Poictesme. Cabell is highly praised as an influence among fantasy author's with Neil Gaiman claiming Cabell to be his “favourite forgotten American writer”.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Domnei&lt;/i&gt; was initially published as &lt;i&gt;The Soul of Melicent&lt;/i&gt; in 1913 under the erroneous advice of Cabell's publisher that this new title would sell more copies. Only 493 copies were sold of the original publication. In 1920 the book was republished as &lt;i&gt;Domnei: A Comedy of Woman-Worship&lt;/i&gt;, Cabell's original vision for the title, which is the basis for this ebook.&lt;/p&gt;
+			&lt;p&gt;The story follows Perion de la Forêt, fugitive leader of a mercenary troop and his unbridled passion for his newlywed and newly-distant lover, the Princess Melicent, daughter of Dom Manuel. The tale takes us to many locations in Middle Ages Europe as we witness to what extent men will go to pursue a woman's love.&lt;/p&gt;
 		</meta>
 		<dc:language>en_US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9663</dc:source>
@@ -157,7 +157,6 @@
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
-
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
@@ -206,5 +205,4 @@
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
-
 </package>
