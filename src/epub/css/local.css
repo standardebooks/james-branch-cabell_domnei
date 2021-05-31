@@ -131,3 +131,10 @@ section[epub|type~="dedication"] > *{
 [epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
 }
+
+.preface-citation{
+	display: block;
+	font-variant: small-caps;
+	margin-top: 1em;
+	text-align: right;
+}
