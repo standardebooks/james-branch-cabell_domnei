@@ -149,16 +149,20 @@ p span.i1{
 }
 
 /* Preface citation */
-p.preface-citation{
+[epub|type~="preface"] p:last-child{
 	display: block;
 	font-variant: small-caps;
 	margin-top: 1em;
 	text-align: right;
 }
 
-/* Manuscript end */
-span.afterword-section,
-b.manuscript-end{
+/* Centered, block */
+[epub|type~="afterword"] p:nth-child(4),
+[epub|type~="afterword"] p:nth-child(8),
+[epub|type~="afterword"] p:nth-child(15),
+[epub|type~="afterword"] p:nth-child(20),
+[epub|type~="afterword"] p:nth-child(25),
+#chapter-30 p:last-child{
 	display: block;
 	margin-top: 1em;
 	text-align: center;
