@@ -137,14 +137,16 @@ p span.i1{
 	text-indent: -1em;
 }
 
-.preface-citation{
+p.preface-citation{
 	display: block;
 	font-variant: small-caps;
 	margin-top: 1em;
 	text-align: right;
 }
 
+span.afterword-section,
 b.manuscript-end{
 	display: block;
+	margin-top: 1em;
 	text-align: center;
 }
