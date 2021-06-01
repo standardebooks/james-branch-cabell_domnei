@@ -138,6 +138,17 @@ p span.i1{
 	text-indent: -1em;
 }
 
+/* Foreword citation */
+[epub|type~="foreword"] p:nth-child(4),
+[epub|type~="foreword"] p:nth-child(6){
+	display: block;
+	font-variant: small-caps;
+	margin-bottom: 2em;
+	margin-top: 1em;
+	text-align: right;
+}
+
+/* Preface citation */
 p.preface-citation{
 	display: block;
 	font-variant: small-caps;
@@ -145,6 +156,7 @@ p.preface-citation{
 	text-align: right;
 }
 
+/* Manuscript end */
 span.afterword-section,
 b.manuscript-end{
 	display: block;
