@@ -8,7 +8,7 @@
 	-epub-hyphens: none;
 }
 
-/* [epub|type~="epigraph"] em, */
+[epub|type~="epigraph"] em,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -59,7 +59,7 @@ section[epub|type~="epigraph"] > *{
 /* End full-page epigraphs */
 
 /* Epigraphs in section headers */
-/* article > header [epub|type~="epigraph"], */
+article > header [epub|type~="epigraph"],
 section > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
@@ -67,10 +67,11 @@ section > header [epub|type~="epigraph"]{
 	text-align: initial;
 }
 
-/* article > header [epub|type~="epigraph"] + *,
+article > header [epub|type~="epigraph"] + *,
 section > header [epub|type~="epigraph"] + *{
 	margin-top: 3em;
-} */
+}
+
 @supports(display: table){
 	/* article > header [epub|type~="epigraph"], */
 	section > header [epub|type~="epigraph"]{
