@@ -8,7 +8,7 @@
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
+/* [epub|type~="epigraph"] em, */
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -57,28 +57,6 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 /* End full-page epigraphs */
-
-/* Epigraphs in section headers */
-article > header [epub|type~="epigraph"],
-section > header [epub|type~="epigraph"]{
-	display: inline-block;
-	margin: auto;
-	max-width: 80%;
-	text-align: initial;
-}
-
-article > header [epub|type~="epigraph"] + *,
-section > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
-}
-
-@supports(display: table){
-	/* article > header [epub|type~="epigraph"], */
-	section > header [epub|type~="epigraph"]{
-		display: table;
-	}
-}
-/* End epigraphs in section headers */
 
 /* All dedications */
 section[epub|type~="dedication"]{
@@ -161,9 +139,9 @@ p span.i1{
 [epub|type~="afterword"] p:nth-child(8),
 [epub|type~="afterword"] p:nth-child(15),
 [epub|type~="afterword"] p:nth-child(20),
-[epub|type~="afterword"] p:nth-child(25),
 #chapter-30 p:last-child{
 	display: block;
 	margin-top: 1em;
 	text-align: center;
+	text-indent: 0;
 }
