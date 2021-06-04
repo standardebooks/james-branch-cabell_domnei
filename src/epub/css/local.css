@@ -160,7 +160,7 @@ p span.i1{
 [epub|type~="afterword"] p:nth-child(3),
 [epub|type~="afterword"] p:nth-child(7),
 [epub|type~="afterword"] p:nth-child(14),
-[epub|type~="afterword"] p:nth-child(19),
+[epub|type~="afterword"] p:nth-child(20),
 #chapter-30 p:last-child{
 	display: block;
 	margin-top: 1em;
