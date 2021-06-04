@@ -140,10 +140,7 @@ p span.i1{
 } */
 
 /* Centered, block */
-[epub|type~="afterword"] p:nth-child(3),
-[epub|type~="afterword"] p:nth-child(7),
-[epub|type~="afterword"] p:nth-child(14),
-[epub|type~="afterword"] p:nth-child(20),
+#afterword-4 p:last-child,
 #chapter-30 p:last-child{
 	display: block;
 	margin-top: 1em;
