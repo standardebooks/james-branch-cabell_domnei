@@ -148,7 +148,7 @@
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/epigraph-1.xhtml" id="epigraph-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/epigraph-2.xhtml" id="epigraph-2.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/epigraph-4.xhtml" id="epigraph-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/epigraph-3.xhtml" id="epigraph-3.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/foreword.xhtml" id="foreword.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -169,7 +169,7 @@
 		<itemref idref="epigraph-2.xhtml"/>
 		<itemref idref="preface.xhtml"/>
 		<itemref idref="foreword.xhtml"/>
-		<itemref idref="epigraph-4.xhtml"/>
+		<itemref idref="epigraph-3.xhtml"/>
 		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="incipit.xhtml"/>
 		<itemref idref="part-1.xhtml"/>

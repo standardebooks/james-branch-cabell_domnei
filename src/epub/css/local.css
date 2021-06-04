@@ -24,6 +24,28 @@
 }
 /* End all epigraphs */
 
+/* Epigraphs in section headers */
+article > header [epub|type~="epigraph"],
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+article > header [epub|type~="epigraph"] + *,
+section > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	article > header [epub|type~="epigraph"],
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
 /* Full-page epigraphs */
 section[epub|type~="epigraph"]{
 	text-align: center;
@@ -117,8 +139,8 @@ p span.i1{
 }
 
 /* Foreword citation */
-[epub|type~="foreword"] p:nth-child(4),
-[epub|type~="foreword"] p:nth-child(6){
+[epub|type~="foreword"] p:nth-child(3),
+[epub|type~="foreword"] p:nth-child(5){
 	display: block;
 	font-variant: small-caps;
 	margin-bottom: 2em;
@@ -135,10 +157,10 @@ p span.i1{
 }
 
 /* Centered, block */
-[epub|type~="afterword"] p:nth-child(4),
-[epub|type~="afterword"] p:nth-child(8),
-[epub|type~="afterword"] p:nth-child(15),
-[epub|type~="afterword"] p:nth-child(20),
+[epub|type~="afterword"] p:nth-child(3),
+[epub|type~="afterword"] p:nth-child(7),
+[epub|type~="afterword"] p:nth-child(14),
+[epub|type~="afterword"] p:nth-child(19),
 #chapter-30 p:last-child{
 	display: block;
 	margin-top: 1em;
