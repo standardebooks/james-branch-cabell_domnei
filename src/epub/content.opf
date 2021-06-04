@@ -38,6 +38,7 @@
 		<meta property="file-as" refines="#fulltitle">Domnei</meta>
 		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:title id="title-short">The Soul of Melicent</dc:title>
+		<meta property="file-as" refines="#title-short">Soul of Melicent, The</meta>
 		<meta property="title-type" refines="#title-short">short</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">Fantasy fiction</dc:subject>
@@ -56,7 +57,7 @@
 			&lt;p&gt;&lt;i&gt;Domnei&lt;/i&gt; was initially published as &lt;i&gt;The Soul of Melicent&lt;/i&gt; in 1913 under the erroneous advice of Cabell’s publisher that this new title would sell more copies. Only 493 copies were sold of the original publication. In 1920 the book was republished as &lt;i&gt;Domnei: A Comedy of Woman-Worship&lt;/i&gt;, Cabell’s original vision for the title, which is the basis for this ebook.&lt;/p&gt;
 			&lt;p&gt;The story follows Perion de la Forêt, fugitive leader of a mercenary troop and his unbridled passion for his newlywed and newly-distant lover, the Princess Melicent, daughter of Dom Manuel. The tale takes us to many locations in Middle Ages Europe as we witness to what extent men will go to pursue a woman’s love.&lt;/p&gt;
 		</meta>
-		<dc:language>en-US</dc:language>
+		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9663</dc:source>
 		<dc:source>https://archive.org/details/domneicomedyofwo00cabeiala</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
@@ -104,7 +105,6 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
-		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
@@ -160,6 +160,7 @@
 		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
