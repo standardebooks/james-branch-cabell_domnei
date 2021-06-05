@@ -79,7 +79,7 @@ section[epub|type~="dedication"]{
 	text-align: center;
 }
 
-section[epub|type~="dedication"] span{
+section[epub|type~="dedication"] b{
 	font-size: larger;
 }
 
