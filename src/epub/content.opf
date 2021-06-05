@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/james-branch-cabell/domnei</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-06-05T20:31:36Z</dc:date>
+		<meta property="dcterms:modified">2021-06-05T20:31:36Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -49,24 +49,24 @@
 		<meta property="term" refines="#subject-2">sh85047114</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008107176</meta>
-		<meta property="se:subject">Drama</meta>
 		<meta property="se:subject">Fantasy</meta>
-		<dc:description id="description">The tale of to what extent a woman’s love is worth it to pursue.</dc:description>
+		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">4</meta>
+		<dc:description id="description">The tale of to what extent a woman’s love is worth pursuing.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Domnei&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell&lt;/a&gt; is the fourth installment in the author’s &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt; series which follows the lives of Dom Manuel and his descendents in the fictional French county of Poictesme. Cabell is highly praised as an influence among fantasy author’s with Neil Gaiman claiming Cabell to be his “favourite forgotten American writer.”&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Domnei&lt;/i&gt; was initially published as &lt;i&gt;The Soul of Melicent&lt;/i&gt; in 1913 under the erroneous advice of Cabell’s publisher that this new title would sell more copies. Only 493 copies were sold of the original publication. In 1920 the book was republished as &lt;i&gt;Domnei: A Comedy of Woman-Worship&lt;/i&gt;, Cabell’s original vision for the title, which is the basis for this ebook.&lt;/p&gt;
-			&lt;p&gt;The story follows Perion de la Forêt, fugitive leader of a mercenary troop and his unbridled passion for his newlywed and newly-distant lover, the Princess Melicent, daughter of Dom Manuel. The tale takes us to many locations in Middle Ages Europe as we witness to what extent men will go to pursue a woman’s love.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Domnei&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell&lt;/a&gt; is the fourth installment in his &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt; series, which follows the lives of Dom Manuel and his descendants in the fictional French county of Poictesme.&lt;/p&gt;
+			&lt;p&gt;It was initially published as &lt;i&gt;The Soul of Melicent&lt;/i&gt; in 1913 under the erroneous advice of Cabell’s publisher, who suggested that the title would help sell more copies. But only 493 copies were sold of the original print run. In 1920 the book was republished as &lt;i&gt;Domnei: A Comedy of Woman-Worship&lt;/i&gt;, Cabell’s original vision for the title.&lt;/p&gt;
+			&lt;p&gt;The story follows Perion de la Forêt, fugitive leader of a mercenary troop, and his unbridled passion for his newly-wed and newly-distant lover, the Princess Melicent, daughter of Dom Manuel. The tale takes us to many locations in Middle-Ages Europe as we witness to what extent men will go to pursue a woman’s love.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9663</dc:source>
 		<dc:source>https://archive.org/details/domneicomedyofwo00cabeiala</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">The critical comments and bibliography are fictional, and thus kept in the ebook.</meta>
+		<meta property="se:word-count">36456</meta>
+		<meta property="se:reading-ease.flesch">71.55</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Domnei:_A_Comedy_of_Woman-Worship</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-branch-cabell_domnei</meta>
-		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
-		<meta property="collection-type" refines="#collection-1">series</meta>
-		<meta property="group-position" refines="#collection-1">4</meta>
 		<dc:creator id="author">James Branch Cabell</dc:creator>
 		<meta property="file-as" refines="#author">Cabell, James Branch</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/James_Branch_Cabell</meta>
@@ -90,8 +90,8 @@
 		<dc:contributor id="transcriber-2">Anuradha Valsa Raj</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Raj, Anuradha Valsa</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Project Gutenberg Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Project Gutenberg Distributed Proofreaders</meta>
+		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Reece White</dc:contributor>
@@ -103,6 +103,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
