@@ -149,6 +149,7 @@ footer{
 }
 
 /* Un-italicise epigraph title */
+i b,
 [epub|type~="epigraph"] h2{
 	font-style: normal;
 }
