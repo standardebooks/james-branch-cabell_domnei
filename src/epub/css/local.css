@@ -153,3 +153,8 @@ i b,
 [epub|type~="epigraph"] h2{
 	font-style: normal;
 }
+
+#incipit{
+	font-variant: small-caps;
+	margin-top: 20vh;
+}
