@@ -133,7 +133,7 @@ p span.i1{
 
 #afterword-4 p:last-child,
 #chapter-30 p:last-child{
-	display: block;
+	font-variant: small-caps;
 	margin-top: 1em;
 	text-align: center;
 	text-indent: 0;
