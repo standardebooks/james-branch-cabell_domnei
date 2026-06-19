@@ -36,9 +36,7 @@
 		<dc:title id="fulltitle">Domnei: A Comedy of Woman-Worship</dc:title>
 		<meta property="file-as" refines="#fulltitle">Domnei</meta>
 		<meta property="title-type" refines="#fulltitle">extended</meta>
-		<dc:title id="title-short">The Soul of Melicent</dc:title>
-		<meta property="file-as" refines="#title-short">Soul of Melicent, The</meta>
-		<meta property="title-type" refines="#title-short">short</meta>
+		<meta property="dcterms:alternative" refines="#title">The Soul of Melicent</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">Fantasy fiction</dc:subject>
 		<dc:subject id="subject-3">Middle Ages -- Fiction</dc:subject>
