@@ -51,7 +51,7 @@
 		<meta id="collection-1" property="belongs-to-collection">Biography of the Life of Manuel</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">4</meta>
-		<dc:abstract>The tale of to what extent a woman’s love is worth pursuing.</dc:abstract>
+		<meta property="schema:abstract">The tale of to what extent a woman’s love is worth pursuing.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Domnei&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell&lt;/a&gt; is the fourth installment in his &lt;a href="https://standardebooks.org/collections/biography-of-the-life-of-manuel"&gt;Biography of the Life of Manuel&lt;/a&gt; series, which follows the lives of Dom Manuel and his descendants in the fictional French county of Poictesme.&lt;/p&gt;
 			&lt;p&gt;It was initially published as &lt;i&gt;The Soul of Melicent&lt;/i&gt; in 1913 under the erroneous advice of Cabell’s publisher, who suggested that the title would help sell more copies. But only 493 copies were sold of the original print run. In 1920 the book was republished as &lt;i&gt;Domnei: A Comedy of Woman-Worship&lt;/i&gt;, Cabell’s original vision for the title.&lt;/p&gt;
